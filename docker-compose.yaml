@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  services-1:
+    build: ./newproject
+    ports:
+    - target: 5000
+      published: 5000
